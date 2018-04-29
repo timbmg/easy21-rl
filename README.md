@@ -7,17 +7,17 @@ This is an implementation of the Easy21 assignment of David Silver's Reinforceme
 `python3 mc.py`
 
 10 Million Episodes of the game have been evaluated, to obtain the following Value function:  
-![](mc-value-function)
+<img src="https://github.com/timbmg/easy21/blob/master/figs/mc-value-function.png" width="1000">
 
 ## TD Learning
 
 `python3 td.py`
 
 Mean Squared Error of the state-action function of the Monte-Carlo experiment with different Lambdas. For each lambda, 10 000 Episodes have been evaluated.  
-![](td-mse-lambda)
+<img src="https://github.com/timbmg/easy21/blob/master/figs/td-mse-lambda.png" width="1000">
 
 Mean Squared Error evolution with different Lambdas.  
-![](td-mse-episode-lambda)
+<img src="https://github.com/timbmg/easy21/blob/master/figs/td-mse-episode-lambda.png" width="1000">
 
 ## Linear Function Approximation
 
@@ -25,12 +25,6 @@ Mean Squared Error evolution with different Lambdas.
 
 The lookup table of the previous experiment is replaced with a linear function approximation. The logic for the feature vector can be found in the assignment.  
 
-![](lfa-mse-lambda)  
-
-![](lfa-mse-episode-lambda)
-
-[mc-value-function]: (figs/mc-value-function.png)
-[td-mse-lambda]:
-[td-mse-episode-lambda]:
-[lfa-mse-lambda]:
-[lfa-mse-episode-lambda]:
+<img src="https://github.com/timbmg/easy21/blob/master/figs/lfa-mse-lambda.png" width="1000">
+  
+<img src="https://github.com/timbmg/easy21/blob/master/figs/lfa-mse-episode-lambda.png" width="1000">
